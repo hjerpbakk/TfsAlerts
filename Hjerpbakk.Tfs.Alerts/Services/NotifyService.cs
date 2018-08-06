@@ -29,15 +29,14 @@ namespace Hjerpbakk.Tfs.Alerts.Services {
                 throw new ArgumentException(nameof(eventXml));
             }
 
-            Console.WriteLine(eventXml);
-
             var changedItem = new ChangedItem(eventXml);
             var link = new SlackAttachment {
                 Title = changedItem.UrlTitle,
                 TitleLink = changedItem.Url
             };
-            var slackHub = new SlackChatHub { Id = user };
 
+            Console.WriteLine(changedItem.Title + " - " + changedItem.UrlTitle);
+            var slackHub = new SlackChatHub { Id = user };
             var policyResult = await Policy
                         .Handle<Exception>()
                         .WaitAndRetryAsync(new[] {
