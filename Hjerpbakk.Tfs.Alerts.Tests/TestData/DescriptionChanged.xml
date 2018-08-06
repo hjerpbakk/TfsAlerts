@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<WorkItemChangedEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <PortfolioProject>DIPS</PortfolioProject>
+    <ProjectNodeId>4c52421e-897c-4681-afac-47e709cb1a98</ProjectNodeId>
+    <AreaPath>\DIPS\Musk</AreaPath>
+    <Title>DIPS Work Item Changed: Product Backlog Item 181902 - Test</Title>
+    <WorkItemTitle>Test</WorkItemTitle>
+    <Subscriber>spud</Subscriber>
+    <ChangerSid>S-1-5-21-2225027706-3609901632-2130796182-4409</ChangerSid>
+    <ChangerTeamFoundationId>fdafcdc9-2fe6-44dd-a351-9e0d3c0b241d</ChangerTeamFoundationId>
+    <ChangerDisplayName>spud</ChangerDisplayName>
+    <DisplayUrl>http://vd-tfs03:8080/tfs/web/wi.aspx?pcguid=cd55a651-fddc-479e-a226-255283f2a386&amp;id=181902</DisplayUrl>
+    <TimeZone>W. Europe Daylight Time</TimeZone>
+    <TimeZoneOffset>+02:00:00</TimeZoneOffset>
+    <ChangeType>Change</ChangeType>
+    <CoreFields>
+        <IntegerFields>
+            <Field>
+                <Name>ID</Name>
+                <ReferenceName>System.Id</ReferenceName>
+                <OldValue>181902</OldValue>
+                <NewValue>181902</NewValue>
+            </Field>
+            <Field>
+                <Name>Rev</Name>
+                <ReferenceName>System.Rev</ReferenceName>
+                <OldValue>8</OldValue>
+                <NewValue>9</NewValue>
+            </Field>
+            <Field>
+                <Name>Area ID</Name>
+                <ReferenceName>System.AreaId</ReferenceName>
+                <OldValue>796</OldValue>
+                <NewValue>796</NewValue>
+            </Field>
+            <Field>
+                <Name>Watermark</Name>
+                <ReferenceName>System.Watermark</ReferenceName>
+                <OldValue>1100390</OldValue>
+                <NewValue>1100395</NewValue>
+            </Field>
+            <Field>
+                <Name>Iteration ID</Name>
+                <ReferenceName>System.IterationId</ReferenceName>
+                <OldValue>65</OldValue>
+                <NewValue>65</NewValue>
+            </Field>
+            <Field>
+                <Name>Attached File Count</Name>
+                <ReferenceName>System.AttachedFileCount</ReferenceName>
+                <OldValue>0</OldValue>
+                <NewValue>0</NewValue>
+            </Field>
+            <Field>
+                <Name>Hyperlink Count</Name>
+                <ReferenceName>System.HyperLinkCount</ReferenceName>
+                <OldValue>0</OldValue>
+                <NewValue>0</NewValue>
+            </Field>
+            <Field>
+                <Name>External Link Count</Name>
+                <ReferenceName>System.ExternalLinkCount</ReferenceName>
+                <OldValue>0</OldValue>
+                <NewValue>0</NewValue>
+            </Field>
+            <Field>
+                <Name>Related Link Count</Name>
+                <ReferenceName>System.RelatedLinkCount</ReferenceName>
+                <OldValue>0</OldValue>
+                <NewValue>0</NewValue>
+            </Field>
+        </IntegerFields>
+        <StringFields>
+            <Field>
+                <Name>Work Item Type</Name>
+                <ReferenceName>System.WorkItemType</ReferenceName>
+                <OldValue>Product Backlog Item</OldValue>
+                <NewValue>Product Backlog Item</NewValue>
+            </Field>
+            <Field>
+                <Name>Title</Name>
+                <ReferenceName>System.Title</ReferenceName>
+                <OldValue>Test</OldValue>
+                <NewValue>Test</NewValue>
+            </Field>
+            <Field>
+                <Name>Area Path</Name>
+                <ReferenceName>System.AreaPath</ReferenceName>
+                <OldValue>\DIPS\Musk</OldValue>
+                <NewValue>\DIPS\Musk</NewValue>
+            </Field>
+            <Field>
+                <Name>State</Name>
+                <ReferenceName>System.State</ReferenceName>
+                <OldValue>New</OldValue>
+                <NewValue>New</NewValue>
+            </Field>
+            <Field>
+                <Name>Reason</Name>
+                <ReferenceName>System.Reason</ReferenceName>
+                <OldValue>New backlog item</OldValue>
+                <NewValue>New backlog item</NewValue>
+            </Field>
+            <Field>
+                <Name>Assigned To</Name>
+                <ReferenceName>System.AssignedTo</ReferenceName>
+                <OldValue>spud</OldValue>
+                <NewValue>spud</NewValue>
+            </Field>
+            <Field>
+                <Name>Changed By</Name>
+                <ReferenceName>System.ChangedBy</ReferenceName>
+                <OldValue>spud</OldValue>
+                <NewValue>spud</NewValue>
+            </Field>
+            <Field>
+                <Name>Changed Date</Name>
+                <ReferenceName>System.ChangedDate</ReferenceName>
+                <OldValue>8/6/2018 10:47:38 AM</OldValue>
+                <NewValue>8/6/2018 10:50:12 AM</NewValue>
+            </Field>
+            <Field>
+                <Name>Created By</Name>
+                <ReferenceName>System.CreatedBy</ReferenceName>
+                <OldValue>spud</OldValue>
+                <NewValue>spud</NewValue>
+            </Field>
+            <Field>
+                <Name>Created Date</Name>
+                <ReferenceName>System.CreatedDate</ReferenceName>
+                <OldValue>8/6/2018 9:30:01 AM</OldValue>
+                <NewValue>8/6/2018 9:30:01 AM</NewValue>
+            </Field>
+            <Field>
+                <Name>Authorized As</Name>
+                <ReferenceName>System.AuthorizedAs</ReferenceName>
+                <OldValue>spud</OldValue>
+                <NewValue>spud</NewValue>
+            </Field>
+            <Field>
+                <Name>Iteration Path</Name>
+                <ReferenceName>System.IterationPath</ReferenceName>
+                <OldValue>\DIPS</OldValue>
+                <NewValue>\DIPS</NewValue>
+            </Field>
+            <Field>
+                <Name>Authorized Date</Name>
+                <ReferenceName>System.AuthorizedDate</ReferenceName>
+                <OldValue>8/6/2018 10:47:38 AM</OldValue>
+                <NewValue>8/6/2018 10:50:12 AM</NewValue>
+            </Field>
+            <Field>
+                <Name>Revised Date</Name>
+                <ReferenceName>System.RevisedDate</ReferenceName>
+                <OldValue>1/1/9999 1:00:00 AM</OldValue>
+                <NewValue>1/1/9999 1:00:00 AM</NewValue>
+            </Field>
+            <Field>
+                <Name>Team Project</Name>
+                <ReferenceName>System.TeamProject</ReferenceName>
+                <OldValue>DIPS</OldValue>
+                <NewValue>DIPS</NewValue>
+            </Field>
+            <Field>
+                <Name>Board Column</Name>
+                <ReferenceName>System.BoardColumn</ReferenceName>
+                <OldValue>New</OldValue>
+                <NewValue>New</NewValue>
+            </Field>
+            <Field>
+                <Name>Board Lane</Name>
+                <ReferenceName>System.BoardLane</ReferenceName>
+                <OldValue />
+                <NewValue />
+            </Field>
+        </StringFields>
+        <BooleanFields>
+            <Field>
+                <Name>Is Deleted</Name>
+                <ReferenceName>System.IsDeleted</ReferenceName>
+                <OldValue>false</OldValue>
+                <NewValue>false</NewValue>
+            </Field>
+            <Field>
+                <Name>Board Column Done</Name>
+                <ReferenceName>System.BoardColumnDone</ReferenceName>
+                <OldValue>false</OldValue>
+                <NewValue>false</NewValue>
+            </Field>
+        </BooleanFields>
+    </CoreFields>
+    <TextFields>
+        <TextField>
+            <Name>Description</Name>
+            <ReferenceName>System.Description</ReferenceName>
+            <Value>Funker det? Hva med nå? Shit worsk&lt;div&gt;&lt;br&gt;&lt;/div&gt;</Value>
+            <FieldType>Html</FieldType>
+        </TextField>
+    </TextFields>
+    <ChangedFields>
+        <IntegerFields>
+            <Field>
+                <Name>Rev</Name>
+                <ReferenceName>System.Rev</ReferenceName>
+                <OldValue>8</OldValue>
+                <NewValue>9</NewValue>
+            </Field>
+            <Field>
+                <Name>Watermark</Name>
+                <ReferenceName>System.Watermark</ReferenceName>
+                <OldValue>1100390</OldValue>
+                <NewValue>1100395</NewValue>
+            </Field>
+        </IntegerFields>
+        <StringFields>
+            <Field>
+                <Name>Changed Date</Name>
+                <ReferenceName>System.ChangedDate</ReferenceName>
+                <OldValue>8/6/2018 10:47:38 AM</OldValue>
+                <NewValue>8/6/2018 10:50:12 AM</NewValue>
+            </Field>
+            <Field>
+                <Name>Authorized Date</Name>
+                <ReferenceName>System.AuthorizedDate</ReferenceName>
+                <OldValue>8/6/2018 10:47:38 AM</OldValue>
+                <NewValue>8/6/2018 10:50:12 AM</NewValue>
+            </Field>
+        </StringFields>
+        <BooleanFields />
+    </ChangedFields>
+    <Actees>
+        <EventActee>
+            <Id>fdafcdc9-2fe6-44dd-a351-9e0d3c0b241d</Id>
+            <Role>System.AssignedTo.Old</Role>
+        </EventActee>
+        <EventActee>
+            <Id>fdafcdc9-2fe6-44dd-a351-9e0d3c0b241d</Id>
+            <Role>System.AssignedTo.New</Role>
+        </EventActee>
+        <EventActee>
+            <Id>fdafcdc9-2fe6-44dd-a351-9e0d3c0b241d</Id>
+            <Role>System.ChangedBy.Old</Role>
+        </EventActee>
+        <EventActee>
+            <Id>fdafcdc9-2fe6-44dd-a351-9e0d3c0b241d</Id>
+            <Role>System.ChangedBy.New</Role>
+        </EventActee>
+        <EventActee>
+            <Id>fdafcdc9-2fe6-44dd-a351-9e0d3c0b241d</Id>
+            <Role>System.CreatedBy.Old</Role>
+        </EventActee>
+        <EventActee>
+            <Id>fdafcdc9-2fe6-44dd-a351-9e0d3c0b241d</Id>
+            <Role>System.CreatedBy.New</Role>
+        </EventActee>
+        <EventActee>
+            <Id>fdafcdc9-2fe6-44dd-a351-9e0d3c0b241d</Id>
+            <Role>System.AuthorizedAs.Old</Role>
+        </EventActee>
+        <EventActee>
+            <Id>fdafcdc9-2fe6-44dd-a351-9e0d3c0b241d</Id>
+            <Role>System.AuthorizedAs.New</Role>
+        </EventActee>
+    </Actees>
+</WorkItemChangedEvent>

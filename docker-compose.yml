@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  tfs-alerts:
+    image:  ${repo_pre}dips/tfs-alerts${tag}
+    restart: always
+    ports:
+      - 4321:4321
+    

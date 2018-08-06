@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hjerpbakk.Tfs.Alerts", "Hjerpbakk.Tfs.Alerts\Hjerpbakk.Tfs.Alerts.csproj", "{89172359-E337-49C2-9F78-467229E9C4A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hjerpbakk.Tfs.Alerts.Tests", "Hjerpbakk.Tfs.Alerts.Tests\Hjerpbakk.Tfs.Alerts.Tests.csproj", "{48DDD311-FE75-4A3D-9970-E510D9243D84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89172359-E337-49C2-9F78-467229E9C4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89172359-E337-49C2-9F78-467229E9C4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89172359-E337-49C2-9F78-467229E9C4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89172359-E337-49C2-9F78-467229E9C4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DDD311-FE75-4A3D-9970-E510D9243D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DDD311-FE75-4A3D-9970-E510D9243D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DDD311-FE75-4A3D-9970-E510D9243D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DDD311-FE75-4A3D-9970-E510D9243D84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

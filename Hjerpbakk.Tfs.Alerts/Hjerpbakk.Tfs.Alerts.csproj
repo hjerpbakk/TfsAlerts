@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Services\" />
+    <Folder Include="Slack\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="TFS\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="SoapCore" Version="0.9.8.2" />
+    <PackageReference Include="SlackConnector" Version="4.2.71" />
+    <PackageReference Include="Polly" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\ServiceContractAttribute.cs" />
+    <Compile Remove="Extensions\StringExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\build.sh">
+      <Link>build.sh</Link>
+    </None>
+    <None Include="..\docker-compose.yml">
+      <Link>docker-compose.yml</Link>
+    </None>
+    <None Include="..\Dockerfile">
+      <Link>Dockerfile</Link>
+    </None>
+    <None Include="..\down.sh">
+      <Link>down.sh</Link>
+    </None>
+    <None Include="..\publish.sh">
+      <Link>publish.sh</Link>
+    </None>
+    <None Include="..\up_local.sh">
+      <Link>up_local.sh</Link>
+    </None>
+    <None Include="..\up.sh">
+      <Link>up.sh</Link>
+    </None>
+    <None Include="wwwroot\VERSION.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\VERSION.txt" />
+  </ItemGroup>
+</Project>
